@@ -1,6 +1,6 @@
 FROM node
 
-ENV YARN_VERSION 1.0.2
+ENV YARN_VERSION 1.2.1
 
 RUN rm /usr/local/bin/yarn && rm /usr/local/bin/yarnpkg && apt-get install curl gnupg tar \
   && curl -fSLO --compressed "https://yarnpkg.com/downloads/$YARN_VERSION/yarn-v$YARN_VERSION.tar.gz" \
