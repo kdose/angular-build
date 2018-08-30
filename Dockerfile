@@ -1,4 +1,4 @@
-FROM node
+FROM node:10
 
 # grundlegende Software
 RUN apt-get update &&  apt-get install subversion git bzip2
